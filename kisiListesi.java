@@ -112,3 +112,80 @@ public class kisiListesi extends javax.swing.JFrame {
         kat6veli k6 = new kat6veli();
         k6.setVisible(true);
     }  
+
+     @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        siralabel = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        tblogrenciler = new javax.swing.JTable();
+        txtSearch = new javax.swing.JTextField();
+        lblSearch = new javax.swing.JLabel();
+        kaydolbutton = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        soyadiniztxt = new javax.swing.JTextField();
+        sifreniztxt = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
+        adiniztxt = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        idtxt = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
+        tctxt = new javax.swing.JTextField();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        siralabel.setBackground(new java.awt.Color(153, 153, 255));
+
+        tblogrenciler.setBackground(new java.awt.Color(255, 255, 204));
+        tblogrenciler.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "id", "name", "surname", "password", "TCKN"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Integer.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane1.setViewportView(tblogrenciler);
+        if (tblogrenciler.getColumnModel().getColumnCount() > 0) {
+            tblogrenciler.getColumnModel().getColumn(0).setResizable(false);
+            tblogrenciler.getColumnModel().getColumn(1).setResizable(false);
+            tblogrenciler.getColumnModel().getColumn(2).setResizable(false);
+            tblogrenciler.getColumnModel().getColumn(3).setResizable(false);
+            tblogrenciler.getColumnModel().getColumn(4).setResizable(false);
+        }
+
+        txtSearch.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtSearchActionPerformed(evt);
+            }
+        });
+        txtSearch.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtSearchKeyReleased(evt);
+            }
+        });
+
+        lblSearch.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        lblSearch.setText("ARAMA İFADESİ:");
+        lblSearch.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                lblSearchKeyReleased(evt);
+            }
+        });
