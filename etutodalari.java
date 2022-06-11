@@ -566,3 +566,205 @@ public class etutodalari extends javax.swing.JFrame {
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 273, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
+jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel2))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel12)))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(masabir)
+                                .addComponent(masabirkatbirlbl))
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(masabirkatiki)
+                                .addComponent(masabirkatikilbl)
+                                .addComponent(masabirkatuc)
+                                .addComponent(masabirkatuclbl)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(masaiki)
+                                .addComponent(masaikibir)
+                                .addComponent(masaikikatbirlbl))
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(masaikikatiki)
+                                .addComponent(masaikikatikilbl))
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(masaikikatuc)
+                                .addComponent(masaikikatuclbl))))
+                    .addComponent(masabirlbl1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(masauckatbir)
+                        .addComponent(masauckatiki)
+                        .addComponent(masa31)
+                        .addComponent(masauckatikilbl)
+                        .addComponent(masauckatbirlbl))
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(masauckatuc)
+                        .addComponent(masauckatuclbl)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(masadortkatbir)
+                    .addComponent(masadortkatiki)
+                    .addComponent(masa41)
+                    .addComponent(masadortkatikilbl)
+                    .addComponent(masadortkatuc)
+                    .addComponent(masadortkatuclbl)
+                    .addComponent(masadortkatbirlbl))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(masabeskatbir)
+                    .addComponent(masabeskatiki)
+                    .addComponent(masa51)
+                    .addComponent(masabeskatikilbl)
+                    .addComponent(masabeskatuc)
+                    .addComponent(masabeskatuclbl)
+                    .addComponent(masabeskatbirlbl))
+                .addGap(62, 62, 62)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel18)
+                    .addComponent(jLabel24)
+                    .addComponent(jLabel25))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(masabirkatdort)
+                    .addComponent(masabirkatdortlbl)
+                    .addComponent(masabirkatbes)
+                    .addComponent(masabirkatbeslbl)
+                    .addComponent(masabirkatalti)
+                    .addComponent(masabirkataltilbl))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(masaikikatdort)
+                    .addComponent(masaikikatdortlbl)
+                    .addComponent(masaikikatbes)
+                    .addComponent(masaikikatbeslbl)
+                    .addComponent(masaikikatalti)
+                    .addComponent(masaikikataltilbl))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(masauckatdort)
+                    .addComponent(masauckatbes)
+                    .addComponent(masauckatbeslbl)
+                    .addComponent(masauckatalti)
+                    .addComponent(masauckataltilbl)
+                    .addComponent(masauckatdortlbl, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(masadortkatdort)
+                    .addComponent(masadortkatdortlbl)
+                    .addComponent(masadortkatbes)
+                    .addComponent(masadortkatbeslbl)
+                    .addComponent(masadortkatalti)
+                    .addComponent(masadortkataltilbl))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(masabeskatdort)
+                    .addComponent(masabeskatdortlbl)
+                    .addComponent(masabeskatbes)
+                    .addComponent(masabeskatbeslbl)
+                    .addComponent(masabeskatalti)
+                    .addComponent(masabeskataltilbl))
+                .addGap(70, 70, 70))
+        );
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+
+    private void masabirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_masabirActionPerformed
+        
+        if(masabir.isSelected())
+        {
+         masabirkatbirlbl.setText("DOLU!");
+        }else
+       {
+           masabirkatbirlbl.setText("BOŞ!");
+       }
+        
+    }//GEN-LAST:event_masabirActionPerformed
+
+    private void masaikikatikiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_masaikikatikiActionPerformed
+        // TODO add your handling code here:
+        if(masaikikatiki.isSelected())
+        {
+         masaikikatikilbl.setText("DOLU!");
+        }else
+       {
+           masaikikatikilbl.setText("BOŞ!");
+       }
+    }//GEN-LAST:event_masaikikatikiActionPerformed
+
+    private void masauckatikiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_masauckatikiActionPerformed
+        // TODO add your handling code here:
+        
+        if(masauckatikilbl.getText()=="DOLU!")
+        {
+          if(masauckatiki.isSelected())
+        {
+         masauckatikilbl.setText("SEÇİLEMEZ(DOLU!)");
+        }   
+        }
+        
+    }//GEN-LAST:event_masauckatikiActionPerformed
+
+    private void masaikiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_masaikiActionPerformed
+        // TODO add your handling code here:
+       if(masaiki.isSelected())
+        {
+         masaikikatbirlbl.setText("DOLU!");
+        }else
+       {
+           masaikikatbirlbl.setText("BOŞ!");
+       }
+    }//GEN-LAST:event_masaikiActionPerformed
+
+    private void masauckatbirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_masauckatbirActionPerformed
+        // TODO add your handling code here:
+        if(masauckatbir.isSelected())
+        {
+         masauckatbirlbl.setText("DOLU!");
+        }else
+       {
+           masauckatbirlbl.setText("BOŞ!");
+       }
+    }//GEN-LAST:event_masauckatbirActionPerformed
+
+    private void masadortkatbirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_masadortkatbirActionPerformed
+        // TODO add your handling code here:
+        if(masadortkatbir.isSelected())
+        {
+         masadortkatbirlbl.setText("DOLU!");
+        }else
+       {
+           masadortkatbirlbl.setText("BOŞ!");
+       }
+        
