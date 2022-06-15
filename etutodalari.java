@@ -767,4 +767,357 @@ jPanel1Layout.setVerticalGroup(
        {
            masadortkatbirlbl.setText("BOŞ!");
        }
+    }
+
+    private void masabeskatbirActionPerformed(java.awt.event.ActionEvent evt) {
+        if(masabeskatbir.isSelected())
+        {
+         masabeskatbirlbl.setText("DOLU!");
+        }else
+       {
+           masabeskatbirlbl.setText("BOŞ!");
+       }
+    }
+    private void masabirkatikiActionPerformed(java.awt.event.ActionEvent evt) {
+        if(masabirkatiki.isSelected())
+        {
+         masabirkatikilbl.setText("DOLU!");
+        }else
+       {
+           masabirkatikilbl.setText("BOŞ!");
+       }
         
+    }
+    private void masadortkatikiActionPerformed(java.awt.event.ActionEvent evt) {
+        if(masadortkatiki.isSelected())
+        {
+         masadortkatikilbl.setText("DOLU!");
+        }else
+       {
+           masadortkatikilbl.setText("BOŞ!");
+       }
+    }
+    private void masabeskatikiActionPerformed(java.awt.event.ActionEvent evt) {
+        
+        
+        if(masabeskatiki.isSelected())
+        {
+         masabeskatikilbl.setText("DOLU!");
+        }else
+       {
+           masabeskatikilbl.setText("BOŞ!");
+       }
+        
+        
+    }
+
+    private void masabirkatucActionPerformed(java.awt.event.ActionEvent evt) {
+       
+        if(masabirkatuc.isSelected())
+        {
+         masabirkatuclbl.setText("DOLU!");
+        }else
+       {
+           masabirkatuclbl.setText("BOŞ!");
+       }
+    }
+
+    private void masaikikatucActionPerformed(java.awt.event.ActionEvent evt) {
+        
+        
+        if(masaikikatuc.isSelected())
+        {
+         masaikikatuclbl.setText("DOLU!");
+        }else
+       {
+           masaikikatuclbl.setText("BOŞ!");
+       }
+    }
+
+    private void masauckatucActionPerformed(java.awt.event.ActionEvent evt) {
+        
+        if(masauckatuclbl.getText()=="DOLU!")
+        {
+          if(masauckatuc.isSelected())
+        {
+         masauckatuclbl.setText("SEÇİLEMEZ(DOLU!)");
+        }   
+        }
+        
+    }
+    private void masadortkatucActionPerformed(java.awt.event.ActionEvent evt) {
+        
+         if(masadortkatuc.isSelected())
+        {
+         masadortkatuclbl.setText("DOLU!");
+        }else
+       {
+           masadortkatuclbl.setText("BOŞ!");
+       }
+        
+    }
+    private void masabeskatucActionPerformed(java.awt.event.ActionEvent evt) {
+        
+         if(masabeskatuc.isSelected())
+        {
+         masabeskatuclbl.setText("DOLU!");
+        }else
+       {
+           masabeskatuclbl.setText("BOŞ!");
+       }
+    }
+    private void masabirkatdortActionPerformed(java.awt.event.ActionEvent evt) {
+        
+         if(masabirkatdort.isSelected())
+        {
+         masabirkatdortlbl.setText("DOLU!");
+        }else
+       {
+         masabirkatdortlbl.setText("BOŞ!");
+       }
+    }
+    private void masaikikatdortActionPerformed(java.awt.event.ActionEvent evt) {
+        
+        if(masaikikatdort.isSelected())
+        {
+         masaikikatdortlbl.setText("DOLU!");
+        }else
+       {
+         masaikikatdortlbl.setText("BOŞ!");
+       }
+    }
+
+    private void masauckatdortActionPerformed(java.awt.event.ActionEvent evt) {
+        
+        if(masauckatdort.isSelected())
+        {
+         masauckatdortlbl.setText("DOLU!");
+        }else
+       {
+         masauckatdortlbl.setText("BOŞ!");
+       }
+    }
+
+    private void masadortkatdortActionPerformed(java.awt.event.ActionEvent evt) {
+        
+        if(masadortkatdortlbl.getText()=="DOLU!")
+        {
+          if(masadortkatdort.isSelected())
+        {
+         masadortkatdortlbl.setText("SEÇİLEMEZ(DOLU!)");
+        }   
+        }
+        
+    }
+
+    private void masabeskatdortActionPerformed(java.awt.event.ActionEvent evt) {
+        
+        if(masabeskatdort.isSelected())
+        {
+         masabeskatdortlbl.setText("DOLU!");
+        }else
+       {
+         masabeskatdortlbl.setText("BOŞ!");
+       }
+    }
+    private void masabirkatbesActionPerformed(java.awt.event.ActionEvent evt) {
+       
+        if(masabirkatbes.isSelected())
+        {
+         masabirkatbeslbl.setText("DOLU!");
+        }else
+       {
+         masabirkatbeslbl.setText("BOŞ!");
+       }
+    }
+    private void masaikikatbesActionPerformed(java.awt.event.ActionEvent evt) {
+        
+         if(masaikikatbes.isSelected())
+        {
+         masaikikatbeslbl.setText("DOLU!");
+        }else
+       {
+         masaikikatbeslbl.setText("BOŞ!");
+       }
+    }
+
+    private void masauckatbesActionPerformed(java.awt.event.ActionEvent evt) {
+        
+         if(masauckatbes.isSelected())
+        {
+         masauckatbeslbl.setText("DOLU!");
+        }else
+       {
+         masauckatbeslbl.setText("BOŞ!");
+       }
+    }
+
+    private void masadortkatbesActionPerformed(java.awt.event.ActionEvent evt) {
+        
+        if(masadortkatbeslbl.getText()=="DOLU!")
+        {
+          if(masadortkatbes.isSelected())
+        {
+         masadortkatbeslbl.setText("SEÇİLEMEZ(DOLU!)");
+        }   
+        }
+    }
+
+    private void masabeskatbesActionPerformed(java.awt.event.ActionEvent evt) {
+    
+         if(masabeskatbes.isSelected())
+        {
+         masabeskatbeslbl.setText("DOLU!");
+        }else
+       {
+         masabeskatbeslbl.setText("BOŞ!");
+       }
+    }
+    private void masauckataltiActionPerformed(java.awt.event.ActionEvent evt) {
+   
+        if(masauckatalti.isSelected())
+        {
+         masauckataltilbl.setText("DOLU!");
+        }else
+       {
+         masauckataltilbl.setText("BOŞ!");
+       }
+    }
+    private void masabirkataltiActionPerformed(java.awt.event.ActionEvent evt) {
+   
+        if(masabirkataltilbl.getText()=="DOLU!")
+        {
+          if(masabirkatalti.isSelected())
+        {
+         masabirkataltilbl.setText("SEÇİLEMEZ(DOLU!)");
+        }   
+        }
+    }
+
+    private void masaikikataltiActionPerformed(java.awt.event.ActionEvent evt) {
+         if(masaikikataltilbl.getText()=="DOLU!")
+        {
+          if(masaikikatalti.isSelected())
+        {
+         masaikikataltilbl.setText("SEÇİLEMEZ(DOLU!)");
+        }   
+        }
+    }
+
+    private void masadortkataltiActionPerformed(java.awt.event.ActionEvent evt) {
+     
+        if(masadortkatalti.isSelected())
+        {
+         masadortkataltilbl.setText("DOLU!");
+        }else
+       {
+         masadortkataltilbl.setText("BOŞ!");
+       }
+    }
+    private void masabeskataltiActionPerformed(java.awt.event.ActionEvent evt) {
+      
+        if(masabeskatalti.isSelected())
+        {
+         masabeskataltilbl.setText("DOLU!");
+        }else
+       {
+         masabeskataltilbl.setText("BOŞ!");
+       }
+    }
+    public static void main(String args[]) {
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(etutodalari.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(etutodalari.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(etutodalari.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(etutodalari.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new etutodalari().setVisible(true);
+            }
+        });
+    }
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel masa31;
+    private javax.swing.JLabel masa41;
+    private javax.swing.JLabel masa51;
+    private javax.swing.JCheckBox masabeskatalti;
+    private javax.swing.JLabel masabeskataltilbl;
+    private javax.swing.JCheckBox masabeskatbes;
+    private javax.swing.JLabel masabeskatbeslbl;
+    private javax.swing.JCheckBox masabeskatbir;
+    private javax.swing.JLabel masabeskatbirlbl;
+    private javax.swing.JCheckBox masabeskatdort;
+    private javax.swing.JLabel masabeskatdortlbl;
+    private javax.swing.JCheckBox masabeskatiki;
+    private javax.swing.JLabel masabeskatikilbl;
+    private javax.swing.JCheckBox masabeskatuc;
+    private javax.swing.JLabel masabeskatuclbl;
+    private javax.swing.JCheckBox masabir;
+    private javax.swing.JCheckBox masabirkatalti;
+    private javax.swing.JLabel masabirkataltilbl;
+    private javax.swing.JCheckBox masabirkatbes;
+    private javax.swing.JLabel masabirkatbeslbl;
+    private javax.swing.JLabel masabirkatbirlbl;
+    private javax.swing.JCheckBox masabirkatdort;
+    private javax.swing.JLabel masabirkatdortlbl;
+    private javax.swing.JCheckBox masabirkatiki;
+    private javax.swing.JLabel masabirkatikilbl;
+    private javax.swing.JCheckBox masabirkatuc;
+    private javax.swing.JLabel masabirkatuclbl;
+    private javax.swing.JLabel masabirlbl1;
+    private javax.swing.JCheckBox masadortkatalti;
+    private javax.swing.JLabel masadortkataltilbl;
+    private javax.swing.JCheckBox masadortkatbes;
+    private javax.swing.JLabel masadortkatbeslbl;
+    private javax.swing.JCheckBox masadortkatbir;
+    private javax.swing.JLabel masadortkatbirlbl;
+    private javax.swing.JCheckBox masadortkatdort;
+    private javax.swing.JLabel masadortkatdortlbl;
+    private javax.swing.JCheckBox masadortkatiki;
+    private javax.swing.JLabel masadortkatikilbl;
+    private javax.swing.JCheckBox masadortkatuc;
+    private javax.swing.JLabel masadortkatuclbl;
+    private javax.swing.JCheckBox masaiki;
+    private javax.swing.JLabel masaikibir;
+    private javax.swing.JCheckBox masaikikatalti;
+    private javax.swing.JLabel masaikikataltilbl;
+    private javax.swing.JCheckBox masaikikatbes;
+    private javax.swing.JLabel masaikikatbeslbl;
+    private javax.swing.JLabel masaikikatbirlbl;
+    private javax.swing.JCheckBox masaikikatdort;
+    private javax.swing.JLabel masaikikatdortlbl;
+    private javax.swing.JCheckBox masaikikatiki;
+    private javax.swing.JLabel masaikikatikilbl;
+    private javax.swing.JCheckBox masaikikatuc;
+    private javax.swing.JLabel masaikikatuclbl;
+    private javax.swing.JCheckBox masauckatalti;
+    private javax.swing.JLabel masauckataltilbl;
+    private javax.swing.JCheckBox masauckatbes;
+    private javax.swing.JLabel masauckatbeslbl;
+    private javax.swing.JCheckBox masauckatbir;
+    private javax.swing.JLabel masauckatbirlbl;
+    private javax.swing.JCheckBox masauckatdort;
+    private javax.swing.JLabel masauckatdortlbl;
+    private javax.swing.JCheckBox masauckatiki;
+    private javax.swing.JLabel masauckatikilbl;
+    private javax.swing.JCheckBox masauckatuc;
+    private javax.swing.JLabel masauckatuclbl;
+}     
